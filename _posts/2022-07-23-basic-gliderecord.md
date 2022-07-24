@@ -1,12 +1,12 @@
 ---
 title: "Basic GlideRecord (Test Post)"
 layout: post
-category: servicenow
+categories: servicenow
 ---
 
 Basic GlideRecord:
 
-{% highlight javascript %}
+{% highlight javascript linenos %}
 // Get all priority 1 incidents
 var incGR = new GlideRecord('incident');
 incGR.addQuery("priority", 1);
