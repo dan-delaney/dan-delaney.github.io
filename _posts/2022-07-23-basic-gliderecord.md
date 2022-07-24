@@ -1,7 +1,7 @@
 ---
 title: "Basic GlideRecord (Test Post)"
 layout: post
-categories: ServiceNow
+categories: ServiceNow, JavaScript, GlideRecord
 ---
 
 Basic GlideRecord:
