@@ -2,6 +2,7 @@
 title: "Basic GlideRecord"
 layout: post
 categories: ServiceNow JavaScript GlideRecord
+author: Dan Delaney
 ---
 
 Testing out GitHub pages for blogging, with a basic GlideRecord query:
