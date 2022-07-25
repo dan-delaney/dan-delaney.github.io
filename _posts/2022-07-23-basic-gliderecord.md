@@ -4,7 +4,7 @@ layout: post
 categories: ServiceNow, JavaScript, GlideRecord
 ---
 
-Basic GlideRecord:
+Testing out GitHub pages for blogging, with a basic GlideRecord query:
 
 {% highlight javascript linenos %}
 // Get all priority 1 incidents
