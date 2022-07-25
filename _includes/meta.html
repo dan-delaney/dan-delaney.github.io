@@ -1,6 +1,12 @@
 <header>
+  {% assign categories = include.post.categories %}
   <h1><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h1>
-  <category><i class="fa-solid fa-tags"></i>{{ include.post.categories }}</category>
+  <category>
+    {% for category in categories %}
+    <i class="fa-solid fa-tag"></i>{{category}}
+    {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
+  </category>
   {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
   <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time>
 </header>
