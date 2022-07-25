@@ -8,5 +8,5 @@
     {% endfor %}
   </category>
   {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
-  <time datetime="{{ include.post.date | date_to_xmlschema }}">Posted {{ include.post.date | date: date_format }} by {{ include.post.author }}</time>
+  <time datetime="{{ include.post.date | date_to_xmlschema }}">Posted {{ include.post.date | date: date_format }} by {{ site.author }}</time>
 </header>

@@ -2,7 +2,7 @@
 {% for post in posts %}
   <article>
     {% include meta.html post=post preview=true %}
-    {{ post.excerpt }}
+    {{ post.content }}
   </article>
 {% endfor %}
 
