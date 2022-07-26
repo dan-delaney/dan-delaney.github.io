@@ -16,7 +16,7 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/dan-delaney"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/dan_delaney"}
   - {title: Github, icon: github, url: "https://github.com/dan-delaney/"}
 
 comments:
