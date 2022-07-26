@@ -1,19 +1,20 @@
 ---
-title: "Basic GlideRecord"
+title: "Basic GlideRecord Query"
 layout: post
 categories: ServiceNow JavaScript GlideRecord
 ---
 
-Testing out GitHub pages for blogging, with a basic GlideRecord query:
+Testing out GitHub pages for blogging, with a basic GlideRecord query for getting all Priority 1 incident:
 
 {% highlight javascript linenos %}
 // Get all priority 1 incidents
 var incGR = new GlideRecord('incident');
 incGR.addQuery("priority", 1);
+incGR.addActiveQuery()
 incGR.query();
 if ( incGR.hasNext() ) {
   while ( incGR.next() ) {
-    gs.print(incGR.number);
+    gs.info(incGR.number);
   }
 }
 {% endhighlight %}
