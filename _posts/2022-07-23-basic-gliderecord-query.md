@@ -4,7 +4,7 @@ layout: post
 categories: ServiceNow JavaScript GlideRecord
 ---
 
-Testing out GitHub pages for blogging, with a basic GlideRecord query for getting all Priority 1 incident:
+Testing out GitHub pages for blogging, with a basic GlideRecord query for getting a list of all Priority 1 incidents:
 
 {% highlight javascript linenos %}
 // Get all priority 1 incidents
