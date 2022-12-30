@@ -1,7 +1,7 @@
-title: "Dan Delaney"
-author: "Dan Delaney"
+title: "@dan_delaney"
+author: "@dan_delaney"
 description: " "
-permalink: /:title/
+permalink: "/:title"
 lang: "en"
 excerpt_separator: "\n\n\n\n\n\n\n\n"
 date_format: "%A %-d %B %Y"
