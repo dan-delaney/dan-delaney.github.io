@@ -13,7 +13,7 @@ incGR.addQuery("priority", 1);
 incGR.addActiveQuery()
 incGR.query();
 if ( incGR.hasNext() ) {
-  while ( incGR.next() ) {
+  while ( incGR._next() ) {
     gs.info(incGR.number);
   }
 }
