@@ -18,4 +18,3 @@ if ( incGR.hasNext() ) {
   }
 }
 {% endhighlight %}
-
